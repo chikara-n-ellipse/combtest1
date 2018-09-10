@@ -12,13 +12,13 @@ public class test {
 		
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("長さ（要素数）を正の整数で入力してください。");
-        int n = scanner.nextInt();
-        for(int i = 0 ; i<n ; i++) {
-        	 System.out.println( (i+1) + "番目の要素を整数で入力してください。");
-        	 int a = scanner.nextInt();
-        	 data.add(a);
-        }
-        scanner.close();
+		int n = scanner.nextInt();
+		for(int i = 0 ; i<n ; i++) {
+			 System.out.println( (i+1) + "番目の要素を整数で入力してください。");
+			 int a = scanner.nextInt();
+			 data.add(a);
+		}
+		scanner.close();
 		
 		Permutation1 pm1 = new Permutation1();
 		List<ArrayList<Integer>> perms = new ArrayList<ArrayList<Integer>>();
