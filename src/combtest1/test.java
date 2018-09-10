@@ -24,8 +24,9 @@ public class test {
 		List<ArrayList<Integer>> perms = new ArrayList<ArrayList<Integer>>();
 		perms = pm1.getPerms(data);
 		for(int i = 0; i < perms.size(); i++) {
-			System.out.println(perms.get(i));
+			System.out.println(perms.get(i) + "　　←　　" + (i+1) + "番目の順列" );
 		}
+		System.out.println("以上、全" + perms.size() +"個の順列を生成しました");
 		
 	}
 }
