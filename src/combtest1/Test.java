@@ -2,10 +2,11 @@ package combtest1;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Scanner;
+import java.applet.Applet;
 
 import combtest1.Permutation1;
 
-public class test {
+public class Test extends Applet{
 
 	public static void main(String[] args) {
 		ArrayList<Integer> data = new ArrayList<Integer>();
